@@ -20,6 +20,7 @@ It is an easy to use, simple and efficient Machine Learning Model. Data pre-proc
 
 
 # Python Packages Used
+[(Back to top)](#table-of-contents)
 
 
 - **General Purpose** : General purpose package `argparse` for passing model parameters liek seed value and Learning Rate from the command line.
@@ -63,6 +64,7 @@ python3 train.py --seed SEEDVALUE --epochs EPOCHS --alpha LEARNINGPARAMETER
 **Loss Function** : Cross Entropy Loss
 
 # Training Data
+[(Back to top)](#table-of-contents)
 
 Training Data contains 768 examples with 8 columns with one of them being the boolean value of a Patient being Diabetic.
 
@@ -80,20 +82,21 @@ Training Data contains 768 examples with 8 columns with one of them being the bo
 - Outcome
 
 # Visualisations
+[(Back to top)](#table-of-contents)
 
 Using *Seaborn* library, Pairplots are created for Outcome Column with every other column.
 
-![PairPlot](Diabetes-Final/Plots/Pairplot.png)
+![PairPlot](Plots/Pairplot.png)
 
 
 Using *Matplotlib* library, Loss Values are projected with each epoch.
 
-![Losses](Diabetes-Final/Plots/Loss.png)
+![Losses](Plots/Loss.png)
 
 
 Now, again Using *Seaborn* library, Confusion Matrix is created to check Accuracy of the model.
 
-![Confusion Matrix](Diabetes-Final/Plots/confusion_matrix.png)
+![Confusion Matrix](Plots/confusion_matrix.png)
 
 
 
@@ -105,6 +108,7 @@ learning_rate: 0.01
 
 
 # Results
+[(Back to top)](#table-of-contents)
 
 Using *sklearn* , Accuracy Score is calculated which comes out to be **78.5714%** for above mentioned set of parameters.
 
